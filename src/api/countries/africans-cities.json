@@ -1,0 +1,213 @@
+{
+  "DZ": [
+    {"id": "algiers", "name": "Algiers", "name_fr": "Alger"},
+    {"id": "oran", "name": "Oran", "name_fr": "Oran"},
+    {"id": "constantine", "name": "Constantine", "name_fr": "Constantine"}
+  ],
+  "AO": [
+    {"id": "luanda", "name": "Luanda", "name_fr": "Luanda"},
+    {"id": "huambo", "name": "Huambo", "name_fr": "Huambo"}
+  ],
+  "BJ": [
+    {"id": "cotonou", "name": "Cotonou", "name_fr": "Cotonou"},
+    {"id": "porto_novo", "name": "Porto-Novo", "name_fr": "Porto-Novo"},
+    {"id": "parakou", "name": "Parakou", "name_fr": "Parakou"},
+    {"id": "abomey-calavi", "name": "Abomey-Calavi", "name_fr": "Abomey-Calavi"}
+  ],
+  "BW": [
+    {"id": "gaborone", "name": "Gaborone", "name_fr": "Gaborone"},
+    {"id": "francistown", "name": "Francistown", "name_fr": "Francistown"}
+  ],
+  "BF": [
+    {"id": "ouagadougou", "name": "Ouagadougou", "name_fr": "Ouagadougou"},
+    {"id": "bobo_dioulasso", "name": "Bobo-Dioulasso", "name_fr": "Bobo-Dioulasso"}
+  ],
+  "BI": [
+    {"id": "bujumbura", "name": "Bujumbura", "name_fr": "Bujumbura"},
+    {"id": "gitega", "name": "Gitega", "name_fr": "Gitega"}
+  ],
+  "CM": [
+    {"id": "yaounde", "name": "Yaoundé", "name_fr": "Yaoundé"},
+    {"id": "douala", "name": "Douala", "name_fr": "Douala"}
+  ],
+  "CV": [
+    {"id": "praia", "name": "Praia", "name_fr": "Praia"},
+    {"id": "mindelo", "name": "Mindelo", "name_fr": "Mindelo"}
+  ],
+  "CF": [
+    {"id": "bangui", "name": "Bangui", "name_fr": "Bangui"},
+    {"id": "bimbo", "name": "Bimbo", "name_fr": "Bimbo"}
+  ],
+  "TD": [
+    {"id": "ndjamena", "name": "N'Djamena", "name_fr": "N'Djamena"},
+    {"id": "moundou", "name": "Moundou", "name_fr": "Moundou"}
+  ],
+  "KM": [
+    {"id": "moroni", "name": "Moroni", "name_fr": "Moroni"},
+    {"id": "mutsamudu", "name": "Mutsamudu", "name_fr": "Mutsamudu"}
+  ],
+  "CG": [
+    {"id": "brazzaville", "name": "Brazzaville", "name_fr": "Brazzaville"},
+    {"id": "pointe_noire", "name": "Pointe-Noire", "name_fr": "Pointe-Noire"}
+  ],
+  "CD": [
+    {"id": "kinshasa", "name": "Kinshasa", "name_fr": "Kinshasa"},
+    {"id": "lubumbashi", "name": "Lubumbashi", "name_fr": "Lubumbashi"}
+  ],
+  "DJ": [
+    {"id": "djibouti", "name": "Djibouti", "name_fr": "Djibouti"},
+    {"id": "ali_sabieh", "name": "Ali Sabieh", "name_fr": "Ali Sabieh"}
+  ],
+  "EG": [
+    {"id": "cairo", "name": "Cairo", "name_fr": "Le Caire"},
+    {"id": "alexandria", "name": "Alexandria", "name_fr": "Alexandrie"}
+  ],
+  "GQ": [
+    {"id": "malabo", "name": "Malabo", "name_fr": "Malabo"},
+    {"id": "bata", "name": "Bata", "name_fr": "Bata"}
+  ],
+  "ER": [
+    {"id": "asmara", "name": "Asmara", "name_fr": "Asmara"},
+    {"id": "keren", "name": "Keren", "name_fr": "Keren"}
+  ],
+  "ET": [
+    {"id": "addis_ababa", "name": "Addis Ababa", "name_fr": "Addis-Abeba"},
+    {"id": "dire_dawa", "name": "Dire Dawa", "name_fr": "Dire Dawa"}
+  ],
+  "GA": [
+    {"id": "libreville", "name": "Libreville", "name_fr": "Libreville"},
+    {"id": "port_gentil", "name": "Port-Gentil", "name_fr": "Port-Gentil"}
+  ],
+  "GM": [
+    {"id": "banjul", "name": "Banjul", "name_fr": "Banjul"},
+    {"id": "serrekunda", "name": "Serekunda", "name_fr": "Serekunda"}
+  ],
+  "GH": [
+    {"id": "accra", "name": "Accra", "name_fr": "Accra"},
+    {"id": "kumasi", "name": "Kumasi", "name_fr": "Kumasi"}
+  ],
+  "GN": [
+    {"id": "conakry", "name": "Conakry", "name_fr": "Conakry"},
+    {"id": "nzerekore", "name": "Nzérékoré", "name_fr": "Nzérékoré"}
+  ],
+  "GW": [
+    {"id": "bissau", "name": "Bissau", "name_fr": "Bissau"},
+    {"id": "bafata", "name": "Bafatá", "name_fr": "Bafatá"}
+  ],
+  "CI": [
+    {"id": "abidjan", "name": "Abidjan", "name_fr": "Abidjan"},
+    {"id": "bouake", "name": "Bouaké", "name_fr": "Bouaké"}
+  ],
+  "KE": [
+    {"id": "nairobi", "name": "Nairobi", "name_fr": "Nairobi"},
+    {"id": "mombasa", "name": "Mombasa", "name_fr": "Mombasa"}
+  ],
+  "LS": [
+    {"id": "maseru", "name": "Maseru", "name_fr": "Maseru"},
+    {"id": "mafeteng", "name": "Mafeteng", "name_fr": "Mafeteng"}
+  ],
+  "LR": [
+    {"id": "monrovia", "name": "Monrovia", "name_fr": "Monrovia"},
+    {"id": "gbarnga", "name": "Gbarnga", "name_fr": "Gbarnga"}
+  ],
+  "LY": [
+    {"id": "tripoli", "name": "Tripoli", "name_fr": "Tripoli"},
+    {"id": "benghazi", "name": "Benghazi", "name_fr": "Benghazi"}
+  ],
+  "MG": [
+    {"id": "antananarivo", "name": "Antananarivo", "name_fr": "Antananarivo"},
+    {"id": "toamasina", "name": "Toamasina", "name_fr": "Toamasina"}
+  ],
+  "MW": [
+    {"id": "lilongwe", "name": "Lilongwe", "name_fr": "Lilongwe"},
+    {"id": "blantyre", "name": "Blantyre", "name_fr": "Blantyre"}
+  ],
+  "ML": [
+    {"id": "bamako", "name": "Bamako", "name_fr": "Bamako"},
+    {"id": "sikasso", "name": "Sikasso", "name_fr": "Sikasso"}
+  ],
+  "MR": [
+    {"id": "nouakchott", "name": "Nouakchott", "name_fr": "Nouakchott"},
+    {"id": "nouadhibou", "name": "Nouadhibou", "name_fr": "Nouadhibou"}
+  ],
+  "MU": [
+    {"id": "port_louis", "name": "Port Louis", "name_fr": "Port-Louis"},
+    {"id": "beau_bassin", "name": "Beau Bassin", "name_fr": "Beau Bassin"}
+  ],
+  "MA": [
+    {"id": "casablanca", "name": "Casablanca", "name_fr": "Casablanca"},
+    {"id": "rabat", "name": "Rabat", "name_fr": "Rabat"}
+  ],
+  "MZ": [
+    {"id": "maputo", "name": "Maputo", "name_fr": "Maputo"},
+    {"id": "matola", "name": "Matola", "name_fr": "Matola"}
+  ],
+  "NA": [
+    {"id": "windhoek", "name": "Windhoek", "name_fr": "Windhoek"},
+    {"id": "rundu", "name": "Rundu", "name_fr": "Rundu"}
+  ],
+  "NE": [
+    {"id": "niamey", "name": "Niamey", "name_fr": "Niamey"},
+    {"id": "zinder", "name": "Zinder", "name_fr": "Zinder"}
+  ],
+  "NG": [
+    {"id": "lagos", "name": "Lagos", "name_fr": "Lagos"},
+    {"id": "abuja", "name": "Abuja", "name_fr": "Abuja"}
+  ],
+  "RW": [
+    {"id": "kigali", "name": "Kigali", "name_fr": "Kigali"},
+    {"id": "butare", "name": "Butare", "name_fr": "Butare"}
+  ],
+  "SN": [
+    {"id": "dakar", "name": "Dakar", "name_fr": "Dakar"},
+    {"id": "touba", "name": "Touba", "name_fr": "Touba"}
+  ],
+  "SC": [
+    {"id": "victoria", "name": "Victoria", "name_fr": "Victoria"},
+    {"id": "anse_royale", "name": "Anse Royale", "name_fr": "Anse Royale"}
+  ],
+  "SL": [
+    {"id": "freetown", "name": "Freetown", "name_fr": "Freetown"},
+    {"id": "bo", "name": "Bo", "name_fr": "Bo"}
+  ],
+  "SO": [
+    {"id": "mogadishu", "name": "Mogadishu", "name_fr": "Mogadiscio"},
+    {"id": "hargeisa", "name": "Hargeisa", "name_fr": "Hargeisa"}
+  ],
+  "ZA": [
+    {"id": "johannesburg", "name": "Johannesburg", "name_fr": "Johannesburg"},
+    {"id": "cape_town", "name": "Cape Town", "name_fr": "Le Cap"}
+  ],
+  "SS": [
+    {"id": "juba", "name": "Juba", "name_fr": "Juba"},
+    {"id": "malakal", "name": "Malakal", "name_fr": "Malakal"}
+  ],
+  "SD": [
+    {"id": "khartoum", "name": "Khartoum", "name_fr": "Khartoum"},
+    {"id": "omdurman", "name": "Omdurman", "name_fr": "Omdurman"}
+  ],
+  "TZ": [
+    {"id": "dar_es_salaam", "name": "Dar es Salaam", "name_fr": "Dar es Salaam"},
+    {"id": "dodoma", "name": "Dodoma", "name_fr": "Dodoma"}
+  ],
+  "TG": [
+    {"id": "lome", "name": "Lomé", "name_fr": "Lomé"},
+    {"id": "sokode", "name": "Sokodé", "name_fr": "Sokodé"}
+  ],
+  "TN": [
+    {"id": "tunis", "name": "Tunis", "name_fr": "Tunis"},
+    {"id": "sfax", "name": "Sfax", "name_fr": "Sfax"}
+  ],
+  "UG": [
+    {"id": "kampala", "name": "Kampala", "name_fr": "Kampala"},
+    {"id": "entebbe", "name": "Entebbe", "name_fr": "Entebbe"}
+  ],
+  "ZM": [
+    {"id": "lusaka", "name": "Lusaka", "name_fr": "Lusaka"},
+    {"id": "kitwe", "name": "Kitwe", "name_fr": "Kitwe"}
+  ],
+  "ZW": [
+    {"id": "harare", "name": "Harare", "name_fr": "Harare"},
+    {"id": "bulawayo", "name": "Bulawayo", "name_fr": "Bulawayo"}
+  ]
+}

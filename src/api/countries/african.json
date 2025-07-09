@@ -1,0 +1,422 @@
+[
+  {
+    "id": "DZ",
+    "name": "Algeria",
+    "name_fr": "Algérie",
+    "phoneCode": "213",
+    "flag": "https://restcountries.eu/data/dza.svg"
+  },
+  {
+    "id": "AO",
+    "name": "Angola",
+    "name_fr": "Angola",
+    "phoneCode": "244",
+    "flag": "https://restcountries.eu/data/ago.svg"
+  },
+  {
+    "id": "BJ",
+    "name": "Benin",
+    "name_fr": "Bénin",
+    "phoneCode": "229",
+    "flag": "https://restcountries.eu/data/ben.svg"
+  },
+  {
+    "id": "BW",
+    "name": "Botswana",
+    "name_fr": "Botswana",
+    "phoneCode": "267",
+    "flag": "https://restcountries.eu/data/bwa.svg"
+  },
+  {
+    "id": "IO",
+    "name": "British Indian Ocean Territory",
+    "name_fr": "Territoire britannique de l'océan Indien",
+    "phoneCode": "246",
+    "flag": "https://restcountries.eu/data/iot.svg"
+  },
+  {
+    "id": "BF",
+    "name": "Burkina Faso",
+    "name_fr": "Burkina Faso",
+    "phoneCode": "226",
+    "flag": "https://restcountries.eu/data/bfa.svg"
+  },
+  {
+    "id": "BI",
+    "name": "Burundi",
+    "name_fr": "Burundi",
+    "phoneCode": "257",
+    "flag": "https://restcountries.eu/data/bdi.svg"
+  },
+  {
+    "id": "CM",
+    "name": "Cameroon",
+    "name_fr": "Cameroun",
+    "phoneCode": "237",
+    "flag": "https://restcountries.eu/data/cmr.svg"
+  },
+  {
+    "id": "CV",
+    "name": "Cabo Verde",
+    "name_fr": "Cap Vert",
+    "phoneCode": "238",
+    "flag": "https://restcountries.eu/data/cpv.svg"
+  },
+  {
+    "id": "CF",
+    "name": "Central African Republic",
+    "name_fr": "République centrafricaine",
+    "phoneCode": "236",
+    "flag": "https://restcountries.eu/data/caf.svg"
+  },
+  {
+    "id": "TD",
+    "name": "Chad",
+    "name_fr": "Tchad",
+    "phoneCode": "235",
+    "flag": "https://restcountries.eu/data/tcd.svg"
+  },
+  {
+    "id": "KM",
+    "name": "Comoros",
+    "name_fr": "Comores",
+    "phoneCode": "269",
+    "flag": "https://restcountries.eu/data/com.svg"
+  },
+  {
+    "id": "CG",
+    "name": "Congo",
+    "name_fr": "Congo",
+    "phoneCode": "242",
+    "flag": "https://restcountries.eu/data/cog.svg"
+  },
+  {
+    "id": "CD",
+    "name": "Congo (Democratic Republic of the)",
+    "name_fr": "Congo (Rép. dém.)",
+    "phoneCode": "243",
+    "flag": "https://restcountries.eu/data/cod.svg"
+  },
+  {
+    "id": "DJ",
+    "name": "Djibouti",
+    "name_fr": "Djibouti",
+    "phoneCode": "253",
+    "flag": "https://restcountries.eu/data/dji.svg"
+  },
+  {
+    "id": "EG",
+    "name": "Egypt",
+    "name_fr": "Égypte",
+    "phoneCode": "20",
+    "flag": "https://restcountries.eu/data/egy.svg"
+  },
+  {
+    "id": "GQ",
+    "name": "Equatorial Guinea",
+    "name_fr": "Guinée-Équatoriale",
+    "phoneCode": "240",
+    "flag": "https://restcountries.eu/data/gnq.svg"
+  },
+  {
+    "id": "ER",
+    "name": "Eritrea",
+    "name_fr": "Érythrée",
+    "phoneCode": "291",
+    "flag": "https://restcountries.eu/data/eri.svg"
+  },
+  {
+    "id": "ET",
+    "name": "Ethiopia",
+    "name_fr": "Éthiopie",
+    "phoneCode": "251",
+    "flag": "https://restcountries.eu/data/eth.svg"
+  },
+  {
+    "id": "TF",
+    "name": "French Southern Territories",
+    "name_fr": "Terres australes et antarctiques françaises",
+    "phoneCode": "",
+    "flag": "https://restcountries.eu/data/atf.svg"
+  },
+  {
+    "id": "GA",
+    "name": "Gabon",
+    "name_fr": "Gabon",
+    "phoneCode": "241",
+    "flag": "https://restcountries.eu/data/gab.svg"
+  },
+  {
+    "id": "GM",
+    "name": "Gambia",
+    "name_fr": "Gambie",
+    "phoneCode": "220",
+    "flag": "https://restcountries.eu/data/gmb.svg"
+  },
+  {
+    "id": "GH",
+    "name": "Ghana",
+    "name_fr": "Ghana",
+    "phoneCode": "233",
+    "flag": "https://restcountries.eu/data/gha.svg"
+  },
+  {
+    "id": "GN",
+    "name": "Guinea",
+    "name_fr": "Guinée",
+    "phoneCode": "224",
+    "flag": "https://restcountries.eu/data/gin.svg"
+  },
+  {
+    "id": "GW",
+    "name": "Guinea-Bissau",
+    "name_fr": "Guinée-Bissau",
+    "phoneCode": "245",
+    "flag": "https://restcountries.eu/data/gnb.svg"
+  },
+  {
+    "id": "CI",
+    "name": "Côte d'Ivoire",
+    "name_fr": "Côte d'Ivoire",
+    "phoneCode": "225",
+    "flag": "https://restcountries.eu/data/civ.svg"
+  },
+  {
+    "id": "KE",
+    "name": "Kenya",
+    "name_fr": "Kenya",
+    "phoneCode": "254",
+    "flag": "https://restcountries.eu/data/ken.svg"
+  },
+  {
+    "id": "LS",
+    "name": "Lesotho",
+    "name_fr": "Lesotho",
+    "phoneCode": "266",
+    "flag": "https://restcountries.eu/data/lso.svg"
+  },
+  {
+    "id": "LR",
+    "name": "Liberia",
+    "name_fr": "Liberia",
+    "phoneCode": "231",
+    "flag": "https://restcountries.eu/data/lbr.svg"
+  },
+  {
+    "id": "LY",
+    "name": "Libya",
+    "name_fr": "Libye",
+    "phoneCode": "218",
+    "flag": "https://restcountries.eu/data/lby.svg"
+  },
+  {
+    "id": "MG",
+    "name": "Madagascar",
+    "name_fr": "Madagascar",
+    "phoneCode": "261",
+    "flag": "https://restcountries.eu/data/mdg.svg"
+  },
+  {
+    "id": "MW",
+    "name": "Malawi",
+    "name_fr": "Malawi",
+    "phoneCode": "265",
+    "flag": "https://restcountries.eu/data/mwi.svg"
+  },
+  {
+    "id": "ML",
+    "name": "Mali",
+    "name_fr": "Mali",
+    "phoneCode": "223",
+    "flag": "https://restcountries.eu/data/mli.svg"
+  },
+  {
+    "id": "MR",
+    "name": "Mauritania",
+    "name_fr": "Mauritanie",
+    "phoneCode": "222",
+    "flag": "https://restcountries.eu/data/mrt.svg"
+  },
+  {
+    "id": "MU",
+    "name": "Mauritius",
+    "name_fr": "Île Maurice",
+    "phoneCode": "230",
+    "flag": "https://restcountries.eu/data/mus.svg"
+  },
+  {
+    "id": "YT",
+    "name": "Mayotte",
+    "name_fr": "Mayotte",
+    "phoneCode": "262",
+    "flag": "https://restcountries.eu/data/myt.svg"
+  },
+  {
+    "id": "MA",
+    "name": "Morocco",
+    "name_fr": "Maroc",
+    "phoneCode": "212",
+    "flag": "https://restcountries.eu/data/mar.svg"
+  },
+  {
+    "id": "MZ",
+    "name": "Mozambique",
+    "name_fr": "Mozambique",
+    "phoneCode": "258",
+    "flag": "https://restcountries.eu/data/moz.svg"
+  },
+  {
+    "id": "NA",
+    "name": "Namibia",
+    "name_fr": "Namibie",
+    "phoneCode": "264",
+    "flag": "https://restcountries.eu/data/nam.svg"
+  },
+  {
+    "id": "NE",
+    "name": "Niger",
+    "name_fr": "Niger",
+    "phoneCode": "227",
+    "flag": "https://restcountries.eu/data/ner.svg"
+  },
+  {
+    "id": "NG",
+    "name": "Nigeria",
+    "name_fr": "Nigéria",
+    "phoneCode": "234",
+    "flag": "https://restcountries.eu/data/nga.svg"
+  },
+  {
+    "id": "RE",
+    "name": "Réunion",
+    "name_fr": "Réunion",
+    "phoneCode": "262",
+    "flag": "https://restcountries.eu/data/reu.svg"
+  },
+  {
+    "id": "RW",
+    "name": "Rwanda",
+    "name_fr": "Rwanda",
+    "phoneCode": "250",
+    "flag": "https://restcountries.eu/data/rwa.svg"
+  },
+  {
+    "id": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "name_fr": "Sainte-Hélène",
+    "phoneCode": "290",
+    "flag": "https://restcountries.eu/data/shn.svg"
+  },
+  {
+    "id": "ST",
+    "name": "Sao Tome and Principe",
+    "name_fr": "Sao Tomé-et-Principe",
+    "phoneCode": "239",
+    "flag": "https://restcountries.eu/data/stp.svg"
+  },
+  {
+    "id": "SN",
+    "name": "Senegal",
+    "name_fr": "Sénégal",
+    "phoneCode": "221",
+    "flag": "https://restcountries.eu/data/sen.svg"
+  },
+  {
+    "id": "SC",
+    "name": "Seychelles",
+    "name_fr": "Seychelles",
+    "phoneCode": "248",
+    "flag": "https://restcountries.eu/data/syc.svg"
+  },
+  {
+    "id": "SL",
+    "name": "Sierra Leone",
+    "name_fr": "Sierra Leone",
+    "phoneCode": "232",
+    "flag": "https://restcountries.eu/data/sle.svg"
+  },
+  {
+    "id": "SO",
+    "name": "Somalia",
+    "name_fr": "Somalie",
+    "phoneCode": "252",
+    "flag": "https://restcountries.eu/data/som.svg"
+  },
+  {
+    "id": "ZA",
+    "name": "South Africa",
+    "name_fr": "Afrique du Sud",
+    "phoneCode": "27",
+    "flag": "https://restcountries.eu/data/zaf.svg"
+  },
+  {
+    "id": "SS",
+    "name": "South Sudan",
+    "name_fr": "Soudan du Sud",
+    "phoneCode": "211",
+    "flag": "https://restcountries.eu/data/ssd.svg"
+  },
+  {
+    "id": "SD",
+    "name": "Sudan",
+    "name_fr": "Soudan",
+    "phoneCode": "249",
+    "flag": "https://restcountries.eu/data/sdn.svg"
+  },
+  {
+    "id": "SZ",
+    "name": "Swaziland",
+    "name_fr": "Swaziland",
+    "phoneCode": "268",
+    "flag": "https://restcountries.eu/data/swz.svg"
+  },
+  {
+    "id": "TZ",
+    "name": "Tanzania, United Republic of",
+    "name_fr": "Tanzanie",
+    "phoneCode": "255",
+    "flag": "https://restcountries.eu/data/tza.svg"
+  },
+  {
+    "id": "TG",
+    "name": "Togo",
+    "name_fr": "Togo",
+    "phoneCode": "228",
+    "flag": "https://restcountries.eu/data/tgo.svg"
+  },
+  {
+    "id": "TN",
+    "name": "Tunisia",
+    "name_fr": "Tunisie",
+    "phoneCode": "216",
+    "flag": "https://restcountries.eu/data/tun.svg"
+  },
+  {
+    "id": "UG",
+    "name": "Uganda",
+    "name_fr": "Uganda",
+    "phoneCode": "256",
+    "flag": "https://restcountries.eu/data/uga.svg"
+  },
+  {
+    "id": "EH",
+    "name": "Western Sahara",
+    "name_fr": "Sahara Occidental",
+    "phoneCode": "212",
+    "flag": "https://restcountries.eu/data/esh.svg"
+  },
+  {
+    "id": "ZM",
+    "name": "Zambia",
+    "name_fr": "Zambie",
+    "phoneCode": "260",
+    "flag": "https://restcountries.eu/data/zmb.svg"
+  },
+  {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "name_fr": "Zimbabwe",
+    "phoneCode": "263",
+    "flag": "https://restcountries.eu/data/zwe.svg"
+  }
+]

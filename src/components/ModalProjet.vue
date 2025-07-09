@@ -1,3 +1,68 @@
+<script setup>
+import { ref, onMounted } from "vue";
+
+import africanCountries from '../api/countries/african.json';
+import africanCities from '../api/countries/africans-cities.json';
+
+const props = defineProps({
+  show: Boolean
+});
+
+const emit = defineEmits(['close']);
+
+// Données du formulaire
+const form = ref({
+  civility: 'M',
+  fullName: '',
+  company: '',
+  country: '',
+  city: '',
+  subject: '',
+  message: ''
+});
+
+// Liste des pays
+const countries = ref([]);
+// Liste des villes (simulée)
+const cities = ref([]);
+
+// Charger les pays
+onMounted( () => {
+  try {
+
+    countries.value = Object.values(africanCountries);
+    // Trier les pays par nom
+    countries.value.sort((a, b) => a.name_fr.localeCompare(b.name_fr));
+
+  } catch (error) {
+    console.error("Erreur lors du chargement des pays:", error);
+  }
+});
+
+// Simuler le chargement des villes (dans un vrai projet, utiliser une API)
+const loadCities = () => {
+
+  const selectedCountry = countries.value.find(c => c.name_fr === form.value.country);
+  if (selectedCountry && africanCities[selectedCountry.id]) {
+    cities.value = africanCities[selectedCountry.id];
+  } else {
+    cities.value = [];
+  }
+};
+
+// Soumettre le formulaire
+const submitForm = () => {
+  console.log('Formulaire soumis:', form.value);
+  // Ici vous ajouteriez la logique pour envoyer les données au serveur
+  emit('close');
+};
+</script>
+
+
+
+
+
+
 <template>
   <Transition name="modal">
     <div v-if="show" class="fixed inset-0 z-50 overflow-y-auto">
@@ -63,9 +128,9 @@
                   required
                   @change="loadCities"
                   class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:text-white">
-                  <option value="" disabled selected>Sélectionnez un pays</option>
-                  <option v-for="country in countries" :key="country.cca3" :value="country.name.common">
-                    {{ country.name.common }}
+                  <!-- <option value="" disabled selected>Sélectionnez un pays</option> -->
+                  <option v-for="country in countries" :key="country.id" :value="country.name_fr">
+                    {{ country.name_fr }} (+{{ country.phoneCode }})
                   </option>
                 </select>
               </div>
@@ -79,8 +144,8 @@
                   required
                   class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:text-white">
                   <option value="" disabled selected>Sélectionnez une ville</option>
-                  <option v-for="city in cities" :key="city" :value="city">
-                    {{ city }}
+                  <option v-for="city in cities" :key="city.id" :value="city.name_fr">
+                    {{ city.name_fr }}
                   </option>
                 </select>
               </div>
@@ -138,56 +203,7 @@
   </Transition>
 </template>
 
-<script setup>
-import { ref, onMounted } from "vue";
 
-const props = defineProps({
-  show: Boolean
-});
-
-const emit = defineEmits(['close']);
-
-// Données du formulaire
-const form = ref({
-  civility: 'M',
-  fullName: '',
-  company: '',
-  country: '',
-  city: '',
-  subject: '',
-  message: ''
-});
-
-// Liste des pays
-const countries = ref([]);
-// Liste des villes (simulée)
-const cities = ref([]);
-
-// Charger les pays
-onMounted(async () => {
-  try {
-    const response = await fetch('https://restcountries.com/v3.1/all?fields=name,cca3');
-    countries.value = await response.json();
-    // Trier les pays par nom
-    countries.value.sort((a, b) => a.name.common.localeCompare(b.name.common));
-  } catch (error) {
-    console.error("Erreur lors du chargement des pays:", error);
-  }
-});
-
-// Simuler le chargement des villes (dans un vrai projet, utiliser une API)
-const loadCities = () => {
-  // Simulation - en réalité, vous devriez appeler une API de villes
-  cities.value = ['Paris', 'Lyon', 'Marseille', 'Toulouse'];
-};
-
-// Soumettre le formulaire
-const submitForm = () => {
-  console.log('Formulaire soumis:', form.value);
-  // Ici vous ajouteriez la logique pour envoyer les données au serveur
-  emit('close');
-};
-</script>
 
 <style>
 .modal-enter-active,

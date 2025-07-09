@@ -1,23 +1,7 @@
-<script setup>
-import NavBar from './layouts/NavBar.vue'
-import View from './views/Index.vue'
-import Footer from './layouts/Footer.vue'
-
-</script>
-
 <template>
-
-  <!-- Barre de Navigation -->
-  <NavBar /> 
-
-  <!-- Body -->
-   <View />
-
-   <!-- Footer -->
-  <Footer />
-
+  <router-view />
 </template>
 
-<style scoped>
-
-</style>
+<script setup>
+// Rien d'autre n'est nécessaire ici
+</script>

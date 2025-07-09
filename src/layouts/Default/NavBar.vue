@@ -4,22 +4,30 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex-shrink-0">
-          <a href="#" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">
+          <router-link to="/" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">
             CAVE-TECH
-          </a>
+          </router-link>
         </div>
 
         <!-- Menu Desktop -->
         <div class="hidden lg:flex lg:items-center lg:space-x-6">
-          <a v-for="(item, index) in navItems" 
+          <router-link v-for="(item, index) in navItems" 
              :key="index" 
-             :href="item.href" 
+             :to="item.href"
              class="text-gray-300 hover:text-white px-3 py-2">
             {{ item.text }}
-          </a>
+          </router-link>
+          <router-link
+            v-if="isAuthenticated"
+            to="/admin"
+            class="text-gray-300 hover:text-white px-3 py-2"
+          >
+            Admin
+          </router-link>
           <button class="ml-4 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg">
             Contact
           </button>
+          <LogoutButton v-if="isAuthenticated" />
         </div>
 
         <!-- Bouton Mobile -->
@@ -38,13 +46,13 @@
     <div v-show="isOpen" class="lg:hidden absolute inset-x-0 top-16 bg-gray-900 z-50">
       <div class="container mx-auto px-4 py-2">
         <div class="flex flex-col space-y-2">
-          <a v-for="(item, index) in navItems" 
+          <router-link v-for="(item, index) in navItems" 
              :key="index" 
-             :href="item.href" 
+             :to="item.href" 
              class="text-gray-300 hover:text-white px-3 py-2"
              @click="isOpen = false">
             {{ item.text }}
-          </a>
+          </router-link>
           <button class="w-full my-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg">
             Contact
           </button>
@@ -59,11 +67,22 @@ import { ref } from 'vue';
 
 const isOpen = ref(false);
 const navItems = [
-  { text: 'Accueil', href: '#' },
+  { text: 'Accueil', href: '/' },
   { text: 'Services', href: '#services' },
   { text: 'Technologies', href: '#tech' },
   { text: 'Réalisations', href: '#work' },
-  { text: 'Blog', href: '#blog' },
-  { text: 'À propos', href: '#about' }
+  { text: 'Blog', href: '/blog' },
+  { text: 'À propos', href: '#about' },
 ];
+
+import { getAuth, onAuthStateChanged } from 'firebase/auth'
+import LogoutButton from '../../components/LogoutButton.vue'
+
+const auth = getAuth()
+const isAuthenticated = ref(false)
+
+// Écoute les changements d'authentification
+onAuthStateChanged(auth, (user) => {
+  isAuthenticated.value = !!user
+})
 </script>
