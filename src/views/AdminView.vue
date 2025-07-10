@@ -236,7 +236,9 @@ import {
 import { 
   addDoc, 
   collection, 
-  getDocs 
+  doc, 
+  getDocs, 
+  updateDoc
 } from 'firebase/firestore'
 import { db } from '../firebase' // Assure-toi que c'est bien initialisé
 
@@ -273,11 +275,13 @@ const fetchBlogs = async () => {
       id: doc.id,
       ...doc.data()
     }))
+    .filter(blog => !blog.deleted_at) // Filtre les blogs supprimés
     console.log('Blogs chargés:', blogs.value)
   } catch (error) {
     console.error('Erreur de chargement:', error)
   }
 }
+
 
 // Création d'un blog
 const handleSubmit = async () => {
@@ -290,14 +294,14 @@ const handleSubmit = async () => {
 
     if(isEditing.value && formData.value.id){
 
-    // 🔥 Mise à jour avec l'ID
-    await updateDoc(doc(db, "blogs", formData.value.id), {
-    category: formData.value.category,
-    title: formData.value.title,
-    content: formData.value.content,
-    updated_at: new Date() // Optionnel : ajoute un timestamp de modification
-    });
-    alert('Blog mis à jour avec succès !');
+        // 🔥 Mise à jour avec l'ID
+        await updateDoc(doc(db, "blogs", formData.value.id), {
+            category: formData.value.category,
+            title: formData.value.title,
+            content: formData.value.content,
+            updated_at: new Date() // Optionnel : ajoute un timestamp de modification
+        });
+        alert('Blog mis à jour avec succès !');
 
     }else{
 
@@ -340,6 +344,24 @@ const handleEdit = (blog) => {
     isEditing.value = true;
     editingId.value = blog.id;
 };
+
+// Suppression de Blog
+const handleDelete = async (id) => {
+  if (!confirm('Êtes-vous sûr de vouloir supprimer ce blog ?'))
+    return;
+
+  try {
+    await updateDoc(doc(db, 'blogs', id), {
+      deleted_at: new Date() // Marque le blog comme supprimé
+    })
+    formData.value = { category: '', title: '', content: '' }
+    alert('Blog supprimé avec succès !')
+    await fetchBlogs() // Recharge la liste après suppression
+  } catch (error) {
+    console.error('Erreur de suppression:', error)
+    alert('Une erreur est survenue lors de la suppression du blog')
+  }
+}
 
 // Charge les blogs au montage du composant
 onMounted(() => {
